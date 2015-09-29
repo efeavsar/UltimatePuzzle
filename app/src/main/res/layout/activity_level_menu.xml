@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".ActivityLevelMenu"
+    android:background="@color/primary_base">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/xx_menu_top_margin"
+        android:layout_marginBottom="@dimen/xx_menu_bottom_margin"
+        android:layout_marginLeft="@dimen/xx_menu_left_margin"
+        android:layout_marginRight="@dimen/xx_menu_right_margin">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativelayout_header"
+            android:gravity="center"
+            android:layout_alignParentTop="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/menu_item_1_level_header"
+                android:id="@+id/textView_level_header"
+                android:layout_toRightOf="@+id/imageView2"
+                android:layout_alignBottom="@+id/imageView2"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/primary_light_base"
+                android:textSize="32dp" />
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView"
+            android:layout_below="@+id/relativelayout_header"
+            android:layout_centerHorizontal="true"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:id="@+id/linear_level"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:gravity="center">
+
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+</RelativeLayout>

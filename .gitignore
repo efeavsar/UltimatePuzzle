@@ -1,0 +1,14 @@
+strings.xml
+*.json
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/app/build
+*.apk
+*.ap_
+*.p12
+/.idea
+/gradle

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_base">#2c2c2e</color>
+    <color name="primary_dark_base">#212123</color>
+    <color name="primary_light_base">@color/secondary_text_base</color>
+    <color name="accent_base">#C2185B</color>
+    <color name="primary_text_base">@color/primary_text_default_material_dark</color>
+    <color name="secondary_text_base">@color/secondary_text_default_material_dark</color>
+    <color name="level_finished_popup_message_color">@color/accent_base</color>
+
+    <color name="puzzle_color_1">#00CAE8</color>
+    <color name="puzzle_color_2">#ff7512</color>
+    <color name="puzzle_color_3">#00E850</color>
+    <color name="puzzle_color_4">#E91E63</color>
+    <color name="puzzle_color_5">#E0FF46</color>
+    <color name="puzzle_background_color">@color/primary_dark_base</color>
+    <color name="puzzle_color_gradient">#bcbcbf</color>
+
+    <color name="menu_items_background">@color/primary_base</color>
+    <color name="menu_items_disabled_background">#6f6f72</color>
+    <color name="menu_items_background_stroke">#c5c5c8</color>
+
+</resources>
